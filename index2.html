@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="font/iconfont.css"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="shortcut icon" href="today_news.ico"/>
+</head>
+<body>
+
+<!--固定的刷新和回到顶部部分-->
+<div class="feedback">
+    <ul>
+        <li class="fresh"><i class="iconfont">&#xe614;</i></li>
+        <li class="go-top"><i class="iconfont">&#xe6a5;</i></li>
+    </ul>
+</div>
+
+
+<!--头部-->
+<div class="header clearfix">
+    <!-- 头部下载-->
+    <div class="down-app fl">
+        <a href="javascript:">下载APP</a>
+    </div>
+    <!-- 头部天气-->
+    <!--<div class="weather fl">
+        <a href="javascript:">广州</a>
+        <a href="javascript:">阵雨</a>
+        <a href="javascript:">13° / 14°<i class="down iconfont">&#xe6a6;</i></a>
+        &lt;!&ndash; 天气盒子&ndash;&gt;
+        <div class="weather-box">
+            <div class="w-header" >
+                <span class="icon-location"><i class="iconfont">&#xe623;</i>广州</span>
+                <span class="wind">微风一级</span>
+                <span class="air">良 58</span>
+            </div>
+            <ul class="days-weather">
+                <li>
+                    <span class="title">今天</span>
+                    <div class="weather-icon">
+                        <i class="iconfont">&#xe60a;</i>
+                    </div>
+                     <span class="temperature">
+                         <em>16</em>
+                         ° /
+                         <em>&nbsp;27</em>
+                         °
+                     </span>
+                </li>
+
+                <li>
+                    <span class="title">明天</span>
+                    <div class="weather-icon">
+                        <i class="iconfont">&#xe60a;</i>
+                    </div>
+                     <span class="temperature">
+                         <em>20</em>
+                         ° /
+                         <em>&nbsp;26</em>
+                         °
+                     </span>
+                </li>
+
+                <li>
+                    <span class="title">后天</span>
+                    <div class="weather-icon">
+                        <i class="iconfont">&#xf0035;</i>
+                    </div>
+                     <span class="temperature">
+                         <em>21</em>
+                         ° /
+                         <em>&nbsp;28</em>
+                         °
+                     </span>
+                </li>
+            </ul>
+        </div>
+    </div>-->
+    <!--头部右侧 -->
+    <div class="header-right fr">
+        <ul>
+            <li>
+                <a href="注册/page/index.html" class="login">登陆</a>
+            </li>
+            <li>
+                <a href="javascript:">问答</a>
+            </li>
+            <li>
+                <a href="javascript:">头条号</a>
+            </li>
+            <li>
+                <a href="图虫网/index.html">图虫</a>
+            </li>
+            <li>
+                <a href="javascript:" id="fback">反馈</a>
+            </li>
+            <li class="more">
+                <a href="更多/html/index.html">更多 </a>
+                <!-- 更多的下拉框-->
+                <div class="more-layer">
+                    <ul>
+                        <li>
+                            <a href="javascript:">关于头条</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">加入头条</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">媒体报道</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">媒体合作</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">产品合作</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">合作说明</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">产品投放</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">联系我们</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">用户协议</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">投诉指引</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">廉洁举报</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+
+
+
+    </div>
+</div>
+
+<!--主要内容-->
+<div class="content clearfix">
+    <!-- 内容左侧-->
+    <div class="content-left fl">
+        <div class="logo-command">
+            <!-- logo部分-->
+            <div class="logo">
+                <a href="javascript:">
+                    <img src="images/logo.png" alt=""/>
+                </a>
+            </div>
+            <!--推荐部分 -->
+            <div class="command">
+                <ul>
+                    <li><a href="javascript:" class="mask">推荐</a></li>
+                    <li><a href="javascript:">热点</a></li>
+                    <li><a href="javascript:">视频</a></li>
+                    <li><a href="javascript:">图片</a></li>
+                    <li><a href="javascript:">段子</a></li>
+                    <li><a href="javascript:">社会</a></li>
+                    <li><a href="javascript:">娱乐</a></li>
+                    <li><a href="javascript:">科技</a></li>
+                    <li><a href="javascript:">教育</a></li>
+                    <li><a href="javascript:">汽车</a></li>
+                    <li><a href="javascript:">财经</a></li>
+                    <li><a href="javascript:">搞笑</a></li>
+                    <li><a href="javascript:">更多</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 内容中间-->
+    <div class="content-center fl">
+        <!-- 轮播图 -->
+        <div class="carousel">
+            <p id="detail">泥石流</p>
+            <div class="carousel-box">
+                <ul class="carousel-list" id="carousel-list">
+                    <li class="carousel-show">
+                        <a href="javascript:">
+                            <img src="images/lb1.jpg" alt=""/>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <img src="images/lb2.jpg" alt=""/>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <img src="images/lb3.jpg" alt=""/>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <img src="images/lb4.jpg" alt=""/>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <img src="images/lb5.jpg" alt=""/>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="阴阳师/yinyangshi.html">
+                            <img src="images/yys.jpg" alt=""/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 轮播切换-->
+            <div class="carousel-tab">
+                <ul class="tab-list">
+                    <li class="fix"><span>要闻<i></i></span></li>
+                    <li><span>社会<i></i></span></li>
+                    <li><span>娱乐<i></i></span></li>
+                    <li><span>体育<i></i></span></li>
+                    <li><span>明星<i></i></span></li>
+                    <li><span>游戏<i></i></span></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="checkNews">点击添加新闻</p>
+
+        <!-- 新闻列表-->
+        <ul id="ulList">
+            <li class="News_list">
+                <i class="iconfont" title="不感兴趣">&#xe634;</i>
+                <div class="News">
+                    <div class="news-img fl">
+                        <a href="javascript:" class="big-img">
+                            <img src="images/new_img.png" alt=""/>
+                        </a>
+                    </div>
+                    <!-- 新闻描述-->
+                    <h3 class="fl"><a href="javascript:">韩方发函请求中国让乐恢复经营 外交部回应</a></h3>
+                    <p>
+                        <a href="javascript:" class="sign">国际</a>
+                        <a href="javascript:" class="mask">
+                            <img src="images/history_icon.jpg" alt=""/>
+                        </a>
+                        <a href="javascript:">海外网·</a>
+                        <a href="javascript:" class="comment">&nbsp;100条评论&nbsp;·</a>
+                        <span class="time">2017-04-06 14:55:41 前发布</span>
+                    </p>
+                </div>
+            </li>
+
+            <li class="News_list" >
+                <i class="iconfont" title="不感兴趣">&#xe634;</i>
+                <div class="News">
+                    <div class="news-img fl">
+                        <a href="javascript:" class="big-img">
+                            <img src="images/new_img02.jpg" alt=""/>
+                        </a>
+                    </div>
+                    <!-- 新闻描述-->
+                    <h3 class="fl"><a href="javascript:">算命先生怎么就算得那么准呢？</a></h3>
+                    <p>
+                        <a href="javascript:" class="sign">历史</a>
+                        <a href="javascript:" class="mask">
+                            <img src="images/history_icon.jpg" alt=""/>
+                        </a>
+                        <a href="javascript:">闲情偶记·</a>
+                        <a href="javascript:" class="comment">&nbsp;100条评论&nbsp;·</a>
+                        <span class="time">2017-04-06 14:55:41 前发布</span>
+                    </p>
+                </div>
+            </li>
+
+            <li class="News_list" title="不感兴趣">
+                <i class="iconfont">&#xe634;</i>
+                <div class="News">
+                    <div class="news-img fl">
+                        <a href="javascript:" class="big-img">
+                            <img src="images/new_img03.jpg" alt=""/>
+                        </a>
+                    </div>
+                    <!-- 新闻描述-->
+                    <h3 class="fl"><a href="javascript:">开车别乱摸，摄像头可不是吃素的，小心被拍成高清大片</a></h3>
+                    <p>
+                        <a href="javascript:" class="sign">汽车</a>
+                        <a href="javascript:" class="mask">
+                            <img src="images/car_icon.jpg" alt=""/>
+                        </a>
+                        <a href="javascript:">小志汽车汇·</a>
+                        <a href="javascript:" class="comment">&nbsp;380条评论&nbsp;·</a>
+                        <span class="time">2017-04-06 14:55:41 前发布</span>
+                    </p>
+                </div>
+            </li>
+
+            <li class="News_list">
+                <i class="iconfont" title="不感兴趣">&#xe634;</i>
+                <div class="News">
+                    <div class="news-img fl">
+                        <a href="javascript:" class="big-img">
+                            <img src="images/new_img04.jpg" alt=""/>
+                        </a>
+                    </div>
+                    <!-- 新闻描述-->
+                    <h3 class="fl"><a href="javascript:">很多年轻人都不知道蚊子怕什么，教你几招，整个夏天没蚊子！</a></h3>
+                    <p>
+                        <a href="javascript:" class="sign">持家女人</a>
+                        <a href="javascript:" class="mask">
+                            <img src="images/Housekeeping_icon.jpg" alt=""/>
+                        </a>
+                        <a href="javascript:">小志汽车汇·</a>
+                        <a href="javascript:" class="comment">&nbsp;180条评论&nbsp;·</a>
+                        <span class="time">2017-04-06 14:55:41 前发布</span>
+                    </p>
+                </div>
+            </li>
+
+            <li class="News_list">
+                <i class="iconfont" title="不感兴趣">&#xe634;</i>
+                <div class="News">
+                    <div class="news-img fl">
+                        <a href="javascript:" class="big-img">
+                            <img src="images/new_img05.jpg" alt=""/>
+                        </a>
+                    </div>
+                    <!-- 新闻描述-->
+                    <h3 class="fl"><a href="javascript:">
+                        我上过山下过海，没想到自己会被一只土狗感动哭！</a></h3>
+                    <p>
+                        <a href="javascript:" class="sign">其它</a>
+                        <a href="javascript:" class="mask">
+                            <img src="images/pet_icon.jpg" alt=""/>
+                        </a>
+                        <a href="javascript:">宠物报狗狗·</a>
+                        <a href="javascript:" class="comment">&nbsp;1120条评论&nbsp;·</a>
+                        <span class="time">2017-04-06 14:55:41 前发布</span>
+                    </p>
+                </div>
+            </li>
+
+            <li class="News_list">
+                <i class="iconfont" title="不感兴趣">&#xe634;</i>
+                <div class="News">
+                    <div class="news-img fl">
+                        <a href="javascript:" class="big-img">
+                            <img src="images/new_img06.jpg" alt=""/>
+                        </a>
+                    </div>
+                    <!-- 新闻描述-->
+                    <h3 class="fl"><a href="javascript:">
+                        Iphone6s再次降价，比国产手机价格还低选择让人纠结了</a></h3>
+                    <p>
+                        <a href="javascript:" class="sign">数码</a>
+                        <a href="javascript:" class="mask">
+                            <img src="images/phone_icon.jpg" alt=""/>
+                        </a>
+                        <a href="javascript:">稀饭玩数码·</a>
+                        <a href="javascript:" class="comment">&nbsp;1120条评论&nbsp;·</a>
+                        <span class="time">2017-04-06 14:55:41 前发布</span>
+                    </p>
+                </div>
+            </li>
+
+            <li class="News_list">
+                <i class="iconfont" title="不感兴趣">&#xe634;</i>
+                <div class="News">
+                    <div class="news-img fl">
+                        <a href="javascript:" class="big-img">
+                            <img src="images/new_img07.jpg" alt=""/>
+                        </a>
+                    </div>
+                    <!-- 新闻描述-->
+                    <h3 class="fl"><a href="javascript:">
+                        最新洗脑神曲《一抓一蹦跶》 爆红网络</a></h3>
+                    <p>
+                        <a href="javascript:" class="sign">视频</a>
+                        <a href="javascript:" class="mask">
+                            <img src="images/Podcast_icon.jpg" alt=""/>
+                        </a>
+                        <a href="javascript:">稀饭玩数码·</a>
+                        <a href="javascript:" class="comment">&nbsp;150条评论&nbsp;·</a>
+                        <span class="time">2017-04-06 14:55:41 前发布</span>
+                    </p>
+                </div>
+            </li>
+
+
+            <!--<p class="checkNews">7分钟前看到这里 点击刷新</p>-->
+
+
+
+
+        </ul>
+    </div>
+    <!-- 内容右侧-->
+    <div class="content-right fl">
+        <!-- 搜索框-->
+        <form action="" class="form-bd">
+            <input type="text" class="search-txt fl" placeholder="请输入关键字"/>
+            <button class="search-btn fl"><i class="iconfont">&#xe699;</i></button>
+            <!-- 搜索下拉框-->
+            <!--
+            <div class="layer" id="layer">
+                <ul class="mh-search" id="mh-search">
+                    <li class="search-item">
+                        <a href="javascript:">
+                        <i class="search-no" style="color: #F85959;">1</i>
+                        <span class="search-msg">渔民捞海螺现珍珠</span>
+                        </a>
+                    </li>
+
+                    <li class="search-item">
+                        <a href="javascript:">
+                            <i class="search-no" style="color: #FF7800;">2</i>
+                            <span class="search-msg">林允称周星驰可怜</span>
+                        </a>
+                    </li>
+
+                    <li class="search-item">
+                        <a href="javascript:">
+                            <i class="search-no" style="color: #FFC600;">3</i>
+                            <span class="search-msg">偶遇王珞丹卖唱</span>
+                        </a>
+                    </li>
+
+                    <li class="search-item">
+                        <a href="javascript:">
+                            <i class="search-no">4</i>
+                            <span class="search-msg">周冬雨窦靖童撸串</span>
+                        </a>
+                    </li>
+
+                    <li class="search-item">
+                        <a href="javascript:">
+                            <i class="search-no">5</i>
+                            <span class="search-msg">紧锁店铺散发尸臭味</span>
+                        </a>
+                    </li>
+
+                    <li class="search-item">
+                        <a href="javascript:">
+                            <i class="search-no">6</i>
+                            <span class="search-msg">多地上调最低工资</span>
+                        </a>
+                    </li>
+
+                    <li class="search-item">
+                        <a href="javascript:">
+                            <i class="search-no">7</i>
+                            <span class="search-msg">云南销毁动物尸体</span>
+                        </a>
+                    </li>
+
+                    <li class="search-item">
+                        <a href="javascript:">
+                            <i class="search-no">8</i>
+                            <span class="search-msg">王力宏3岁女儿</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        -->
+        </form>
+
+
+
+
+        <!--举报区-->
+        <div class="report">
+            <a href="javascript:">
+                <img src="images/report_logo.png" width="54";height="46"  class="fl" alt=""/>
+                <p class="report-Area">网上有害信息举报专区</p>
+                <p class="phone">举报电话12377</p>
+            </a>
+        </div>
+
+        <!-- 热闻-->
+        <div class="hot-news">
+            <div class="hot-head">24小时热闻</div>
+            <div class="hot-content">
+                <ul>
+                    <li>
+                        <a href="javascript:">
+                            <div class="new-pic fl">
+                                <img src="images/hot-new.jpg" width="60" height="60" alt=""/>
+                            </div>
+                            <div class="new-inner fl">
+                                <p>广东珠海一大桥被载物千吨货船撞移位一米以上</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <div class="new-pic fl">
+                                <img src="images/hot_new02.jpg" width="60" height="60" alt=""/>
+                            </div>
+                            <div class="new-inner fl">
+                                <p>华为维权首案泉州宣判：三星侵权成立需赔华为8000万元</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <div class="new-pic fl">
+                                <img src="images/hot_new03.jpg" width="60" height="60" alt=""/>
+                            </div>
+                            <div class="new-inner fl">
+                                <p>刘结一怒怼英国代表：不要滥用安理会达到政治目的</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <div class="new-pic fl">
+                                <img src="images/hot_new04.jpg" width="60" height="60" alt=""/>
+                            </div>
+                            <div class="new-inner fl">
+                                <p>厉害了！豪掷千亿资金，只为咱中国手机有一颗“中国芯”！</p>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <!--淘宝广告模板-->
+        <div class="templet">
+            <img src="images/taobao.png" alt=""/>
+        </div>
+
+        <!--热门视频 -->
+        <div class="hotvideo">
+            <div class="hotVideo-head">热门视频</div>
+            <div class="hotVideo-content">
+                <ul>
+                    <li>
+                        <a href="javascript:">
+                            <dl>
+                                <dt><img src="images/hot_video.jpg" width="118";height="68" alt=""/><span>01:54</span></dt>
+                                <dd>
+                                    <div class="cell">
+                                        <h4>看几个士兵怎么阻挡成群的敌人：非常震撼</h4>
+                                        <span>64.6万次播放&nbsp;</span>
+                                        <span>·&nbsp;545评论</span>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <dl>
+                                <dt><img src="images/hot_video02.jpg" width="118";height="68" alt=""/><span>04:16</span></dt>
+                                <dd>
+                                    <div class="cell">
+                                        <h4>
+                                            这是我见过赌徒输光后最真实的样子，葛优演技爆棚！</h4>
+                                        <span>78.6万次播放&nbsp;</span>
+                                        <span>·&nbsp;1201评论</span>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <dl>
+                                <dt><img src="images/hot_video03.jpg" width="118";height="68" alt=""/><span>06:19</span></dt>
+                                <dd>
+                                    <div class="cell">
+                                        <h4>叫你什么都压！这回液压机炸了吧！</h4>
+                                        <span>35.7万次播放&nbsp;</span>
+                                        <span>·&nbsp;715评论</span>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <dl>
+                                <dt><img src="images/hot_video04.jpg" width="118";height="68" alt=""/><span>04:35</span></dt>
+                                <dd>
+                                    <div class="cell">
+                                        <h4>奇葩：当着交警的面畅饮一壶酒，然后开始了RAP表演</h4>
+                                        <span>65.4万次播放&nbsp;</span>
+                                        <span>·&nbsp;505评论</span>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <dl>
+                                <dt><img src="images/hot_video05.jpg" width="118";height="68" alt=""/><span>08:59</span></dt>
+                                <dd>
+                                    <div class="cell">
+                                        <h4>一只被狗带大的猫是有多可怕，又是吐舌头又是摇尾巴</h4>
+                                        <span>74.6万次播放&nbsp;</span>
+                                        <span>·&nbsp;175评论</span>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <dl>
+                                <dt><img src="images/hot_video06.jpg" width="118";height="68" alt=""/><span>08:59</span></dt>
+                                <dd>
+                                    <div class="cell">
+                                        <h4>恶作剧：老爸怒砸儿子的游戏机 其实老爸是给儿子买</h4>
+                                        <span>21.6万次播放&nbsp;</span>
+                                        <span>·&nbsp;55评论</span>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!--淘宝广告模板-->
+        <div class="templet">
+            <img src="images/taobao.png" alt=""/>
+        </div>
+
+        <!-- 精彩图片-->
+        <div class="hot-picture">
+            <div class="hotPicture-head">精彩图片</div>
+            <div class="hotPicture-content">
+                <ul>
+                    <li>
+                        <a href="javascript:">
+                            <div class="pic-item">
+                                <div class="pic-img">
+                                    <img src="images/hot_pic.jpg" width="144" height="84" alt=""/>
+                                    <span>17图</span>
+                                </div>
+                                <p>图虫风光摄影：灯光下的倩影</p>
+                            </div>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <div class="pic-item">
+                                <div class="pic-img">
+                                    <img src="images/hot_pic01.jpg" width="144" height="84" alt=""/>
+                                    <span>38图</span>
+                                </div>
+                                <p>全球十大最赚钱电影系列，变形金刚第八..</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <div class="pic-item">
+                                <div class="pic-img">
+                                    <img src="images/hot_pic02.jpg" width="144" height="84" alt=""/>
+                                    <span>40图</span>
+                                </div>
+                                <p>40张卧室装修，榻榻米和大落地窗你更喜欢哪...</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <div class="pic-item">
+                                <div class="pic-img">
+                                    <img src="images/hot_pic03.jpg" width="144" height="84" alt=""/>
+                                    <span>27图</span>
+                                </div>
+                                <p>夫妻结婚十年换137平大房 软硬装花了不到...</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <div class="pic-item">
+                                <div class="pic-img">
+                                    <img src="images/hot_pic04.jpg" width="144" height="84" alt=""/>
+                                    <span>17图</span>
+                                </div>
+                                <p>除去传说中的神奇宝贝，还有哪些各属性的...</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:">
+                            <div class="pic-item">
+                                <div class="pic-img">
+                                    <img src="images/hot_pic05.jpg" width="144" height="84" alt=""/>
+                                    <span>63图</span>
+                                </div>
+                                <p>63张不同风格客厅装修</p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+
+        <!-- 友情链接-->
+
+        <div class="friendlink">
+            <div class="link-head">友情链接</div>
+            <div class="link-content">
+                <ul>
+                    <li><a href="javascript:">光明网</a></li>
+                    <li><a href="javascript:">央广网</a></li>
+                    <li><a href="javascript:">国际在线</a></li>
+                    <li><a href="javascript:">中国西藏网</a></li>
+                    <li><a href="javascript:">参考消息</a></li>
+                    <li><a href="javascript:">环球网</a></li>
+                    <li><a href="javascript:">中青在线</a></li>
+                    <li><a href="javascript:">中青网</a></li>
+                    <li><a href="javascript:">海外网</a></li>
+                    <li><a href="javascript:">中国网</a></li>
+                    <li><a href="javascript:">未来网</a></li>
+                    <li><a href="javascript:">千龙网</a></li>
+                    <li><a href="javascript:">新京报</a></li>
+                    <li><a href="javascript:">法制晚报</a></li>
+                    <li><a href="javascript:">北京晨报</a></li>
+                    <li><a href="javascript:">北京商报</a></li>
+                    <li><a href="javascript:">北京娱乐信报</a></li>
+                    <li><a href="javascript:">奥一网</a></li>
+                    <li><a href="javascript:">金羊网</a></li>
+                    <li><a href="javascript:">华商网</a></li>
+                    <li><a href="javascript:">新民网</a></li>
+                    <li><a href="javascript:">红网</a></li>
+                    <li><a href="javascript:">中国江苏网</a></li>
+                    <li><a href="javascript:">中国江西网</a></li>
+                    <li><a href="javascript:">齐鲁网南海网</a></li>
+                    <li><a href="javascript:">安徽网</a></li>
+                    <li><a href="javascript:">河北新闻网</a></li>
+                    <li><a href="javascript:">闽南网</a></li>
+                    <li><a href="javascript:">海峡网</a></li>
+                    <li><a href="javascript:">华声在线</a></li>
+                    <li><a href="javascript:">中国蓝TV</a></li>
+                    <li><a href="javascript:">北国网</a></li>
+                    <li><a href="javascript:">龙虎网</a></li>
+                    <li><a href="javascript:">东莞时间网</a></li>
+                    <li><a href="javascript:">汽车之家</a></li>
+                    <li><a href="javascript:">Onlylady女人志</a></li>
+                    <li><a href="javascript:">中国搜索</a></li>
+                    <li><a href="javascript:">每日经济新闻</a></li>
+                    <li><a href="javascript:">网上车市</a></li>
+                    <li><a href="javascript:">网通社汽车</a></li>
+                    <li><a href="javascript:">北方网</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- 许可证-->
+        <div class="company">
+            <p>© 2017 今日头条</p>
+            <a href="javascript:">中国互联网举报中心</a>
+            <a href="javascript:">京ICP证140141号</a>
+            <a href="javascript:">京ICP备12025439号-3</a>
+            <a href="javascript:">网络文化经营许可证</a>
+            <p>互联网药品信息服务资格证书</p>
+            <a href="javascript:">跟帖评论自律管理承诺书</a>
+            <p>违法和不良信息举报：010-58341833</p>
+            <p>公司名称：北京字节跳动科技有限公司</p>
+            <a href="javascript:">京公网安备 11000002002023号</a>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="bg">
+
+</div>
+
+<!--创建新闻-->
+<div class="create-news">
+    <i class="iconfont" title="关闭">&#xe634;</i>
+    <input type="text" class="create-title"/>
+    <input type="file" id="create-img" class="create-img" />
+    <button id="sure" class="sure-img">确定图片</button>
+    <input type="file"  id="create-icon" class="create-icon"/>
+
+    <button id="sure02" class="sure-icon">确定小图标</button><br>
+    <select id="select" class="select">
+        <option value="美食">美食</option>
+        <option value="视频">视频</option>
+        <option value="汽车">汽车</option>
+        <option value="搞笑">搞笑</option>
+        <option value="宠物">宠物</option>
+        <option value="市政">市政</option>
+        <option value="历史">历史</option>
+        <option value="娱乐">娱乐</option>
+        <option value="头条">头条</option>
+    </select>
+    <select id="web" class="web">
+        <option value="海外网">海外网</option>
+        <option value="国际网">国际网</option>
+        <option value="人民网">人民网</option>
+        <option value="环球网">环球网</option>
+        <option value="观察者网">观察者网</option>
+        <option value="西游网">西游网</option>
+        <option value="传智博客">传智博客</option>
+
+    </select><br>
+    <img src="" alt="创建图片" width="156" height="100" id="img01"/>
+    <img src="" alt="icon" width="18" height="18" id="img02"/>
+    <button id="send">发送</button>
+
+</div>
+
+
+
+<!--用户反馈-->
+
+<div class="userFeedback">
+    <div class="feedback_dialog">
+        <div class="dialog-header">
+            <h3>意见反馈</h3>
+        </div>
+
+        <div class="dialog-inner">
+            <div class="feedback_panel">
+                <form>
+                    <p class="lable">联系方式 ( 必填 )</p>
+                    <input type="text" class="email" id="email" placeholder="你的邮箱"/>
+                    <p class="lable suggest" >您的意见 ( 必填 )</p>
+                    <textarea style="height:100px;" class="content-msg" maxlength="140" placeholder="请填写您的意见，不超过140字"></textarea>
+                    <button class="submit">提交</button>
+                    <a href="javascript:" class="fr close">[ 关闭 ]</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+<script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
+<script src="js/index.js" charset="utf-8"></script>
+<script src="js/template-native.js"></script>
+
+<script type="text/template" id="tmp">
+    <div class="weather fl">
+        <a href="javascript:">广州</a>
+        <a href="javascript:"><%= list[0].weather%></a>
+        <a href="javascript:"><%= list[0].temperature%><i class="down iconfont">&#xe6a6;</i></a>
+        <!-- 天气盒子-->
+        <div class="weather-box">
+            <div class="w-header" >
+                <span class="icon-location"><i class="iconfont">&#xe623;</i>广州</span>
+                <span class="wind"><%= list[0].wind%></span>
+                <span class="air">良 58</span>
+            </div>
+            <ul class="days-weather">
+                <% for(var i=1;i<4;i++) {%>
+                <li>
+                    <span class="title"><%= list[i].date%></span>
+                    <div class="weather-icon">
+                        <img src="<%=list[i].dayPictureUrl%>" alt=""/>
+                    </div>
+                     <span class="temperature">
+                         <em><%= list[i].temperature%></em>
+                     </span>
+                </li>
+                <%}%>
+
+            </ul>
+        </div>
+    </div>
+
+</script>
+</html>
+
